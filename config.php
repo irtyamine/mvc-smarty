@@ -1,7 +1,7 @@
 <?php
 define("ENVIRONMENT", "development");
 $base = explode('/', $_SERVER['PHP_SELF']);
-define("BASE", "http://".$_SERVER['HTTP_HOST']."/".$base[1]."/");
+define("BASE", "http://".$_SERVER['HTTP_HOST']."/".$base[1]);
 global $config;
 $config = array();
 if(ENVIRONMENT == 'development') {

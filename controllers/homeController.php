@@ -1,8 +1,5 @@
 <?php
-class homeController extends controller {
-    public function __construct() {
-        parent::__construct();
-    }
+class homeController {
     public function index() {    
         global $smarty;       
         $smarty->assign('name','Thiago');
