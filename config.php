@@ -5,10 +5,10 @@ define("BASE", "http://".$_SERVER['HTTP_HOST']."/".$base[1]);
 global $config;
 $config = array();
 if(ENVIRONMENT == 'development') {
-	$config['dbname'] = 'koperatife';
-	$config['host'] = 'localhost';
-	$config['dbuser'] = 'root';
-	$config['dbpass'] = 'toor';
+	$config['dbname'] = '';
+	$config['host'] = '';
+	$config['dbuser'] = '';
+	$config['dbpass'] = '';
 } else {
 	$config['dbname'] = '';
 	$config['host'] = '';
